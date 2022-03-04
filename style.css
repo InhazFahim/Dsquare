@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    display: flex;
+}
+
+#logo{
+    margin-left: 10%;
+    width: 20%;
+}
+
+.logoCollection{
+    margin-left: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.socialLinks{
+    padding: 2.5%;
+}
+
+.socialMediaLinks{
+    padding-right: 10%;
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+
+
+.nav{
+    font-family: "Trirong", serif;
+    background-color: rgb(184, 184, 184);
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align:center;
+}
+.nav li{
+    display: inline-block;
+    background-color: rgb(133 89 137);
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav li a{
+    height: 5%;
+}
+
+.nav a{
+    display:inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color:rgb(143, 202, 182);
+    font-size: 1.25rem;
+}
+
+.sliderFrame{
+    overflow: hidden;
+    height: 610px;
+    width: auto;
+    margin: 0% 11% 
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slideImages{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+
+}
+
+.imgContainer{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+} 
+
+.service-Section{
+    display: flow-root;
+    text-align: center;
+    align-items: center;
+    height: 40%;
+    margin: 0%;
+    background-color: rgb(122, 113, 113);
+}
+
+#section-heading{
+    display: inline-flex;
+    padding: 3%;
+    margin-top: 0%;
+    font-size: 2rem; 
+    color: aliceblue;
+    margin-bottom: 0%;
+}
+
+#button-section{
+    background-color: lightgray;
+    display: inline-block;
+    margin: 1% 0%;
+    padding: 0.5% 1.5%;
+    border-radius: 7.5%;
+}
+
+.section-content{
+    font-size: 1.2rem;
+}
+
+.section-two{
+    display: flex;
+    float: left;
+    margin: 5%;
+    text-align: center;
+}
+
+.section-block{
+    padding: 0% 5%;
+    margin: 0% 2.5%;
+    background-color: rgb(122, 113, 113);
+}
+
+.section-two-button{
+    border-radius: 5%;
+    background-color: lightgrey;
+    margin: 10% 10%;
+}
+
+footer{
+    display: block;
+    margin-top: 25%;
+    margin-bottom: -5%;
+    background-color: rgb(122, 113, 113);
+    align-items: center;
+    
+}
+
+#footer-block{
+    display: flex;
+    margin: 0% 5%;
+}
+
+.footer-container{
+    text-align: left;
+    height: auto;
+    width: 30%;
+    margin: 5% 6%;
+}
+
+.container-tittle{
+    margin: 4% 0%;
+    font-size: 1.25rem;
+    top:100%;
+}
+
+.frame{
+    margin: 0%;
+    height: 200px;
+    width: 291px;
+}
+
